@@ -1,4 +1,7 @@
 #include<stdio.h>
 #include<math.h>
-void enter()
-void exit()
+#include<project.h>
+int main(){
+	readFile("temp",NULL);
+	return 0;
+}
