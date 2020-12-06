@@ -6,7 +6,6 @@ void readFile(const char *filePath,char *buffer){
 	if(fp==NULL){
 	    printf("file doesn't exist\n");
 	}else {
-        fread(buff, 256, 256, fp);
-        puts(buff);
+        
 	}	
 }		
